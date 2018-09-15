@@ -38,6 +38,9 @@ function makeInt(n) {
  
  
  function preserveDecimal(n) {
+   if(n === 'undefined' || n === String) {
+     return NaN
+   }
    return parseFloat(n) 
 }
 
