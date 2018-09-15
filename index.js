@@ -41,6 +41,7 @@ function makeInt(n) {
    if(n === 'undefined' || n === String) {
      return NaN
    }
+   //or bellow
    return parseFloat(n) 
 }
 
